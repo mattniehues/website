@@ -126,5 +126,13 @@
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+	.column, .row {
+		min-height: 500px;
+	}
+}
 
+@media (min-width: 1200px) {
+	.column, .row {
+		min-height: 600px;
+	}
 }
