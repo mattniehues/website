@@ -1,5 +1,5 @@
 /* colors */
-.bg-cheesecake {
+.bg-namesake {
 	background: #c9953c;
 }
 .bg-paramo {
@@ -17,11 +17,11 @@
 	background: #1e4083;
 	color: #fff;
 }
-.bg-edventure {
+.bg-edmo {
 	background: #1482c7;
 	color: #fff;
 }
-.bg-brew {
+.bg-zipbrew {
 	background: #fcd333;
 	color: #000;
 }
@@ -54,6 +54,10 @@ section {
 }
 .rollover.active {
 	opacity: 1;
+}
+
+section.col-1-1>.rollover>.wrapper {
+	width: 49%
 }
 
 /* GRID */
