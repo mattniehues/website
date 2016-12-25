@@ -15,10 +15,26 @@
   <body>
 
     <header class="col-1-1">
+      <ul class="nav">
+        <li><a id="about" class="selected" href="#">About</a></li>
+        <li><a id="contact" href="#">Contact</a></li>
+      </ul>
       <div class="wrapper">
-        <h1>Matt Niehues</h1>
-        <h3>Matt is a San Francisco Bay Area based graphic designer who enjoys the sugar rush of conceptually driven brand creation.</h3>
-        <h3>Below is a collection of projects he’s worked on.</h3>
+        <div class="about">
+          <h1>Matt Niehues</h1>
+          <h3>Matt is a San Francisco Bay Area based graphic designer who enjoys the sugar rush of conceptually driven brand creation.</h3>
+          <h3>Below is a collection of projects he’s worked on.</h3>
+        </div>
+        <div class="contact">
+          <h1>Matt Niehues</h1>
+          <h3>Hiya! Please send virtual high-fives ,emojis, and general inquiry to <a class="selected" href="mailto:hello@niehuesmatt.com">hello@niehuesmatt.com</a>.</h3>
+          <ul class="social">
+            <li><img src="images/icons/instagram.png"></li>
+            <li><img src="images/icons/linkedin.png"></li>
+            <li><img src="images/icons/dribbble.png"></li>
+            <li><img src="images/icons/pinterest.png"></li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -225,6 +241,12 @@
         <h1>Have a splendid <span class="day"></span>!</h1>
         <h6>All Work © Matt Niehues</h6>
       </div>
+      <ul class="social">
+        <li><img src="images/icons/instagram.png"></li>
+        <li><img src="images/icons/linkedin.png"></li>
+        <li><img src="images/icons/dribbble.png"></li>
+        <li><img src="images/icons/pinterest.png"></li>
+      </ul>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -242,6 +264,20 @@
 
           var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][(new Date()).getDay()];
           $('.day').text(day);
+
+          $('#contact').on('click', function() {
+            $('#about').removeClass('selected');
+            $('#contact').addClass('selected');
+            $('.about').hide();
+            $('.contact').show();
+          });
+
+          $('#about').on('click', function() {
+            $('#about').addClass('selected');
+            $('#contact').removeClass('selected');
+            $('.contact').hide();
+            $('.about').show();
+          });
 
       });
     </script>
