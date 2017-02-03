@@ -65,6 +65,9 @@ header #home {
 
 header a {
 	color: #fff;
+}
+
+header li a {
 	text-decoration: none;
 }
 
@@ -96,13 +99,6 @@ a.selected {
 
 footer {
 	position: relative;
-}
-
-footer .social {
-	float: right;
-	top: 30px;
-	right: 30px;
-	position: absolute;
 }
 
 section {
@@ -250,6 +246,11 @@ section.col-1-1>.rollover>.wrapper {
 		width: 100%
 	}
 
+	footer h6 {
+		clear: both;
+    	padding-top: 20px;
+	}
+
 }
 
 @media handheld, only screen and (min-width: 700px)  {
@@ -281,5 +282,12 @@ section.col-1-1>.rollover>.wrapper {
 		list-style-type: none;
 		float: left;
 		padding-right: 20px;
+	}
+
+	footer .social {
+		float: right;
+		top: 30px;
+		right: 30px;
+		position: absolute;
 	}
 }
