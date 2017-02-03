@@ -6,6 +6,10 @@ body {
 .bg-namesake {
 	background: #c9953c;
 }
+.bg-alkalign {
+	background: #1e4083;
+	color: #fff;
+}
 .bg-paramo {
 	background: #f9f2ce;
 }
@@ -28,6 +32,10 @@ body {
 .bg-zipbrew {
 	background: #fcd333;
 	color: #000;
+}
+.bg-marks {
+	background: #000;
+	color: #fff;
 }
 
 .rollover a {
@@ -236,6 +244,10 @@ section.col-1-1>.rollover>.wrapper {
 
 	.hidden-mobile {
 	    display: none !important;
+	}
+
+	section.col-1-1>.rollover>.wrapper {
+		width: 100%
 	}
 
 }
