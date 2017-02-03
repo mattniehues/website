@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* colors */
 .bg-namesake {
 	background: #c9953c;
@@ -31,7 +35,8 @@
 	text-decoration: underline;
 }
 
-.rollover.bg-paramo a {
+.rollover.bg-paramo a,
+.rollover.bg-zipbrew a {
 	color: #000;
 	text-decoration: underline;
 }
@@ -41,8 +46,13 @@ header, footer {
 	color: #fff;
 }
 
+header .about,
 header .contact {
 	display: none;
+}
+
+header #home {
+	cursor: pointer;
 }
 
 header a {
