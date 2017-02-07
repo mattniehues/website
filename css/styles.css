@@ -7,7 +7,7 @@ body {
 	background: #c9953c;
 }
 .bg-alkalign {
-	background: #1e4083;
+	background: #0072CE;
 	color: #fff;
 }
 .bg-paramo {
@@ -124,6 +124,9 @@ section {
 
 section.col-1-1>.rollover>.wrapper {
 	width: 49%
+}
+section.alt>.rollover>.wrapper {
+	width: 100%
 }
 
 /* GRID */
