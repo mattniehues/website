@@ -313,13 +313,34 @@ section.alt>.rollover>.wrapper {
 }
 
 @media screen and (min-width: 901px) and (max-width: 1100px) {
+	.rollover h2 {
+		font-size: 30px;
+	}
 
+	.rollover p {
+		font-size: 22px;
+		line-height: 30px;
+	}
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1300px) {
+	.rollover h2 {
+		font-size: 32px;
+	}
 
+	.rollover p {
+		font-size: 24px;
+		line-height: 32px;
+	}
 }
 
 @media screen and (min-width: 1301px) {
+	.rollover h2 {
+		font-size: 34px;
+	}
 
+	.rollover p {
+		font-size: 26px;
+		line-height: 34px;
+	}
 }
