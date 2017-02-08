@@ -275,7 +275,7 @@ section.alt>.rollover>.wrapper {
 	}
 
 	.wrapper {
-		padding: 50px 30px;
+		padding: 40px;
 	}
 
 	.nav {
@@ -313,6 +313,14 @@ section.alt>.rollover>.wrapper {
 }
 
 @media screen and (min-width: 901px) and (max-width: 1100px) {
+	header h1 {
+		font-size: 34px;
+	}
+
+	header h3 {
+		font-size: 28px;
+	}
+
 	.rollover h2 {
 		font-size: 30px;
 	}
@@ -324,6 +332,14 @@ section.alt>.rollover>.wrapper {
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1300px) {
+	header h1 {
+		font-size: 36px;
+	}
+
+	header h3 {
+		font-size: 30px;
+	}
+
 	.rollover h2 {
 		font-size: 32px;
 	}
@@ -335,12 +351,20 @@ section.alt>.rollover>.wrapper {
 }
 
 @media screen and (min-width: 1301px) {
+	header h1 {
+		font-size: 38px;
+	}
+
+	header h3 {
+		font-size: 32px;
+	}
+
 	.rollover h2 {
 		font-size: 34px;
 	}
 
 	.rollover p {
 		font-size: 26px;
-		line-height: 34px;
+		line-height: 36px;
 	}
 }
