@@ -3,13 +3,20 @@ body {
 }
 
 .nav-arrows {
-	background: #000;
-	position: fixed;
-	bottom: 30px;
-	right: 0;
-	z-index: 99;
-	width: 64px;
-	cursor: pointer;
+    background: #000;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    z-index: 99;
+    width: 56px;
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav-arrows img {
+	width: 40px;
+    margin-left: 8px;
+    margin-top: 5px;
 }
 
 header, footer {
@@ -53,6 +60,15 @@ header .contact {
 
 header #home {
 	cursor: pointer;
+	display: inline-block;
+}
+
+.popup {
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
 }
 
 a {
